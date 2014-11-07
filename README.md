@@ -3,8 +3,14 @@
 ## Introduction
 
 Prints the Drupal status report table (Admin > Reports > Status) on the command line.
-In other words, it prints out every module that implements `hook_requirements()`... 
+In other words, it prints out every module that implements `hook_requirements()' with runtime phase...
 
+Colomns
+
+- Severity
+- Facility
+- Value
+- Description
 ## Commands
 
 drupal-status
