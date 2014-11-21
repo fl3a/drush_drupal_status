@@ -3,7 +3,8 @@
 ## Introduction
 
 Prints the Drupal status report table (Admin > Reports > Status) on the command line.
-In other words, it prints out every module that implements `hook_requirements()' with runtime phase...
+In other words, it prints out every module that implements `hook_requirements()`
+with runtime phase, which gives you an overview about the health of your drupal site via drush...
 
 Colomns
 
@@ -11,6 +12,7 @@ Colomns
 - Facility
 - Value
 - Description
+
 ## Commands
 
 drupal-status
@@ -23,7 +25,8 @@ Since this is a Drush extension, you will need Drush >=v.5.
 
 ### Manual method
 
-Download from project page and extract this extension to a number of places:
+Download the tarball from [drush_drupal_status project page](https://www.drupal.org/project/drush_drupal_status) 
+and extract this extension to one of these places:
 
 - In a .drush folder in your HOME folder.
 - Along with one of your existing modules. If your command is related to an existing module, this is the preferred option.
